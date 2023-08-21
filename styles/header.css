@@ -1,0 +1,153 @@
+.header {
+    height: 55px;
+    
+    display: flex;
+
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.7), transparent);
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items : center;
+}
+
+.netflix-logo {
+    height: 25px;
+
+    padding-right: 13px;
+    margin-left: 58px;
+    margin-top: 20px;
+
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    align-items : center;
+    
+    margin-left: 28px;
+
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+
+.tab {
+    font-size: 14px;
+    margin-top: 9px;
+
+    padding-right: 15px;
+    background-color: transparent;
+    color: rgb(225, 225, 225);
+    border: none;
+    cursor: pointer;
+
+    transition: 0.40s;
+}
+
+.tab:hover {
+    opacity : 0.7;
+}
+
+.menu {
+    font-size: 14px;
+    margin-top: 9px;
+
+    background-color: transparent;
+    color: rgb(225, 225, 225);
+    border: none;
+    cursor: pointer;
+}
+
+.menu:hover {
+    opacity : 0.7;
+}
+
+@media (min-width: 1000px){
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px){
+    .tab {
+        display: none;
+    }
+}
+
+.right-section {
+    width: 180px;
+    margin-right: 80px;
+    margin-top: 14px;
+
+    background-color: transparent;
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.search-icon {
+    width:22px;
+    height:22px;
+}
+
+.search-button {
+    background-color: transparent;
+    filter:invert();
+    border: none;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.search-button:hover {
+    opacity : 0.7;
+}
+
+.kids-tab {
+    font-size: 14px;
+    background-color: transparent;
+    color: rgb(225, 225, 225);
+    border: none;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.kids-tab:hover {
+    opacity : 0.7;
+}
+
+.notice-icon {
+    width:22px;
+    height:22px;    
+}
+
+.notice-button {
+    background-color: transparent;
+    filter:invert();
+    border: none;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.notice-button:hover {
+    opacity : 0.7;
+}
+
+
+.user-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
