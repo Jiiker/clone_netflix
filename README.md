@@ -35,7 +35,7 @@
 
         
         
-    - `**창 크기 줄였을 때**` 메뉴 탭 없어지고 `**‘▼메뉴’ 로 변경**` : `**미디어 쿼리**` 활용
+    - **`창 크기 줄였을 때`** 메뉴 탭 없어지고 **`‘▼메뉴’ 로 변경`** : **`미디어 쿼리`** 활용
         
         ![메뉴 탭 미디어쿼리 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/5511b61d-e2a8-4ff1-b569-d134b332b306)
 
@@ -56,7 +56,7 @@
 
     
     - ‘국민사형투표’ 텍스트 이미지 및 재생 버튼, 상세 정보 버튼은 따로 탭을 만들어 줌
-    - 재생 버튼, 상세 정보 버튼 `**hover시**` 버튼의 `**background만 투명**`해지도록 지정
+    - 재생 버튼, 상세 정보 버튼 **`hover시`** 버튼의 **`background만 투명`** 해지도록 지정
         
         ![백그라운드 재생버튼 hover1 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/c706ea55-b602-4f02-b5c3-9b5632c816cd)
 
@@ -72,26 +72,26 @@
 
 ## 컨텐츠(Contents)
 
-- 썸네일 담는 컨텐츠 박스에 `**display: flexbox**` 지정 : 가로로 담을 수 있도록 설정
+- 썸네일 담는 컨텐츠 박스에 **`display: flexbox`** 지정 : 가로로 담을 수 있도록 설정
     
     ![컨텐츠 부분 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/8c76cda3-11cd-4c12-ae94-f0a9800a2988)
 
     
-- 썸네일 담는 컨텐츠 박스에 `**overflow-x: auto**` 지정 : 넘어가는 부분 생기면 스크롤로 넘기기 가능
+- 썸네일 담는 컨텐츠 박스에 **`overflow-x: auto`** 지정 : 넘어가는 부분 생기면 스크롤로 넘기기 가능
     
     ![컨텐츠 썸네일 flexbox overflow_auto 지정 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/9a49a922-6275-4b2b-9dfd-0e78e638e7ff)
 
     
-    - `**.new-content-thumb::-webkit-scrollbar { display: none; }**` 옵션으로 어울리지 않는 `**스크롤 바 삭제**` (방향키로 이동 가능)
+    - **`.new-content-thumb::-webkit-scrollbar { display: none; }`** 옵션으로 어울리지 않는 **`스크롤 바 삭제`** (방향키로 이동 가능)
 - **썸네일 이미지에 hover시 확대 및 컨텐츠 상세 정보 표시**
     
     ![썸네일 hover 컨텐츠 정보탭 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/39a10a68-d2c2-48e1-8774-242d7d27c490)
 
     
-    - `**display: grid**` 이용하여 썸네일 이미지와 상세정보 컨텐츠박스를 **`각 행에 배치`**
-    - **`상세정보 컨텐츠 박스`**는 기본 상태를 **`display:none 상태`**로 지정
+    - **`display: grid`** 이용하여 썸네일 이미지와 상세정보 컨텐츠박스를 **`각 행에 배치`**
+    - **`상세정보 컨텐츠 박스`** 는 기본 상태를 **`display:none 상태`** 로 지정
         
-        📌 이 부분에서 `**dsplay: none**` 과 `**opacity**` 변경, `**visiblity: hidden**` 속성 이용, `**animation**` 활용 등 방법으로 구현해봤었는데 각각 문제가 발생.
+        📌 이 부분에서 **`dsplay: none`** 과 **`opacity`** 변경, **`visiblity: hidden`** 속성 이용, **`animation`** 활용 등 방법으로 구현해봤었는데 각각 문제가 발생.
         
         📌 **`display: none`** : **`transition 적용이 안됨`**
         
