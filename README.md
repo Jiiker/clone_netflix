@@ -27,7 +27,7 @@
        ![헤더 배경 그라데이션](https://github.com/Jiiker/clone_netflix/assets/100774811/a8afc36b-e1a6-4764-b5d3-bc999f7c8665)
 
         
-    - 마우스 `**hover**`시 `**투명도 변경**`되도록 지정
+    - 마우스 `**hover**` 시 `**투명도 변경**` 되도록 지정
         
         ![메뉴 탭 hover1 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/0f113f90-1108-4150-85de-19b8b8a4f7e8)
 
