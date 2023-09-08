@@ -11,6 +11,7 @@
 
 - 로고
     - 좌측 상단 배치
+      
         ![로고 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/acaaa19b-5799-49e2-8d15-7034271a30db)
 
         
@@ -18,26 +19,32 @@
 - 메뉴 탭
     - 중단 배치 : 왼쪽 정렬
         
-        ![메뉴 탭.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe389f07-49ef-434e-ac8e-b81863ef0aaf/%EB%A9%94%EB%89%B4_%ED%83%AD.png)
+       ![메뉴 탭 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/df9be7a5-fa47-4ef4-8cb1-60c073784409)
+
         
     - 헤더 배경 색상 검정 → 투명 그라데이션 지정
         
-        ![헤더 배경 그라데이션.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1daf128-82c1-41ba-bb51-ed07b12e1768/%ED%97%A4%EB%8D%94_%EB%B0%B0%EA%B2%BD_%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98.png)
+       ![헤더 배경 그라데이션](https://github.com/Jiiker/clone_netflix/assets/100774811/a8afc36b-e1a6-4764-b5d3-bc999f7c8665)
+
         
     - 마우스 `**hover**`시 `**투명도 변경**`되도록 지정
         
-        ![메뉴 탭 hover1.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6731a691-6dcb-4aca-bc2a-dae675ad7ae7/%EB%A9%94%EB%89%B4_%ED%83%AD_hover1.png)
+        ![메뉴 탭 hover1 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/0f113f90-1108-4150-85de-19b8b8a4f7e8)
+
+        ![메뉴 탭 hover2 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/80caa1ee-7729-4c3b-a3d4-509ff8c5fb59)
+
         
-        ![메뉴 탭 hover2.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80bbb5e7-e880-4c22-8e82-0450a9b4553b/%EB%A9%94%EB%89%B4_%ED%83%AD_hover2.png)
         
     - `**창 크기 줄였을 때**` 메뉴 탭 없어지고 `**‘▼메뉴’ 로 변경**` : `**미디어 쿼리**` 활용
         
-        ![메뉴 탭 미디어쿼리.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ef988ca-1bfe-4aa5-b654-5a1d7b47c1f5/%EB%A9%94%EB%89%B4_%ED%83%AD_%EB%AF%B8%EB%94%94%EC%96%B4%EC%BF%BC%EB%A6%AC.png)
+        ![메뉴 탭 미디어쿼리 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/5511b61d-e2a8-4ff1-b569-d134b332b306)
+
         
 - 유저 정보, 알람, 키즈, 검색 탭
     - 우측 상단 배치
         
-        ![유저 및 검색 탭.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/773b5f3e-dfb9-40ad-b207-b96739ba9a31/%EC%9C%A0%EC%A0%80_%EB%B0%8F_%EA%B2%80%EC%83%89_%ED%83%AD.png)
+        ![유저 및 검색 탭 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/1608972f-14de-4f3b-9591-516b98353173)
+
         
     
 
@@ -45,34 +52,41 @@
 
 - 전체 배경은 <body>탭의 background-image로 지정
     
-    ![백그라운드 이미지, 텍스트이미지, 재생 버튼, 상세정보 버튼.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16a4bd7d-2da2-4d8b-943a-9cfcc7b4d2a5/%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C_%EC%9D%B4%EB%AF%B8%EC%A7%80_%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9E%AC%EC%83%9D_%EB%B2%84%ED%8A%BC_%EC%83%81%EC%84%B8%EC%A0%95%EB%B3%B4_%EB%B2%84%ED%8A%BC.png)
+    ![백그라운드 이미지, 텍스트이미지, 재생 버튼, 상세정보 버튼 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/e4a0027d-5081-4ec5-802c-86e599a4f2ce)
+
     
     - ‘국민사형투표’ 텍스트 이미지 및 재생 버튼, 상세 정보 버튼은 따로 탭을 만들어 줌
     - 재생 버튼, 상세 정보 버튼 `**hover시**` 버튼의 `**background만 투명**`해지도록 지정
         
-        ![백그라운드 재생버튼 hover1.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a1c7ad8-185c-459b-bd3d-7a3630dd442c/%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C_%EC%9E%AC%EC%83%9D%EB%B2%84%ED%8A%BC_hover1.png)
+        ![백그라운드 재생버튼 hover1 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/c706ea55-b602-4f02-b5c3-9b5632c816cd)
+
+        ![백그라운드 재생버튼 hover2 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/d90858b4-7874-4445-8453-fca41d1263ca)
+
+        ![백그라운드 상세정보 버튼 hover1 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/009e9a84-1690-47a9-88a9-3bc79645cd55)
+
+        ![백그라운드 상세정보 버튼 hover2 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/62b62a16-7fe2-41ed-a1fb-21d4e400d667)
+
         
-        ![백그라운드 재생버튼 hover2.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cfe2187-9978-492b-a0a4-a93987486e02/%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C_%EC%9E%AC%EC%83%9D%EB%B2%84%ED%8A%BC_hover2.png)
         
-        ![백그라운드 상세정보 버튼 hover1.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0caa038-7e51-48eb-a9b0-5c37c52b411e/%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C_%EC%83%81%EC%84%B8%EC%A0%95%EB%B3%B4_%EB%B2%84%ED%8A%BC_hover1.png)
-        
-        ![백그라운드 상세정보 버튼 hover2.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7603ab1-a756-4c4f-8dac-0d4c7c614b7b/%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C_%EC%83%81%EC%84%B8%EC%A0%95%EB%B3%B4_%EB%B2%84%ED%8A%BC_hover2.png)
         
 
 ## 컨텐츠(Contents)
 
 - 썸네일 담는 컨텐츠 박스에 `**display: flexbox**` 지정 : 가로로 담을 수 있도록 설정
     
-    ![컨텐츠 부분.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6b13bbf-cde6-4af1-a78f-14f22571e76c/%EC%BB%A8%ED%85%90%EC%B8%A0_%EB%B6%80%EB%B6%84.png)
+    ![컨텐츠 부분 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/8c76cda3-11cd-4c12-ae94-f0a9800a2988)
+
     
 - 썸네일 담는 컨텐츠 박스에 `**overflow-x: auto**` 지정 : 넘어가는 부분 생기면 스크롤로 넘기기 가능
     
-    ![컨텐츠 썸네일 flexbox overflow_auto 지정.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84666efa-196b-4ac2-bc68-d0d404eb88dd/%EC%BB%A8%ED%85%90%EC%B8%A0_%EC%8D%B8%EB%84%A4%EC%9D%BC_flexbox_overflow_auto_%EC%A7%80%EC%A0%95.png)
+    ![컨텐츠 썸네일 flexbox overflow_auto 지정 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/9a49a922-6275-4b2b-9dfd-0e78e638e7ff)
+
     
     - `**.new-content-thumb::-webkit-scrollbar { display: none; }**` 옵션으로 어울리지 않는 `**스크롤 바 삭제**` (방향키로 이동 가능)
 - **썸네일 이미지에 hover시 확대 및 컨텐츠 상세 정보 표시**
     
-    ![썸네일 hover 컨텐츠 정보탭.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6dff8f28-c7ab-4838-93cf-06aa303101f4/%EC%8D%B8%EB%84%A4%EC%9D%BC_hover_%EC%BB%A8%ED%85%90%EC%B8%A0_%EC%A0%95%EB%B3%B4%ED%83%AD.png)
+    ![썸네일 hover 컨텐츠 정보탭 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/39a10a68-d2c2-48e1-8774-242d7d27c490)
+
     
     - `**display: grid**` 이용하여 썸네일 이미지와 상세정보 컨텐츠박스를 **`각 행에 배치`**
     - **`상세정보 컨텐츠 박스`**는 기본 상태를 **`display:none 상태`**로 지정
