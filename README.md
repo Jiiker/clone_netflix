@@ -11,8 +11,9 @@
 
 - 로고
     - 좌측 상단 배치
+        ![로고 PNG](https://github.com/Jiiker/clone_netflix/assets/100774811/acaaa19b-5799-49e2-8d15-7034271a30db)
+
         
-        ![로고.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/399ba89e-0df4-44cb-9433-956ca321de1b/%EB%A1%9C%EA%B3%A0.png)
         
 - 메뉴 탭
     - 중단 배치 : 왼쪽 정렬
